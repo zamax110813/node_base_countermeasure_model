@@ -1,0 +1,1 @@
+/usr/bin/g++ -Wall -Wfatal-errors -Wundef CMakeFiles/average.dir/average.cpp.o -o average 

@@ -1,0 +1,1 @@
+/usr/bin/g++ -Wall -Wfatal-errors -Wundef CMakeFiles/st_host.dir/st_host.cpp.o -o st_host 

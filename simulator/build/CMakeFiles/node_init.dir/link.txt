@@ -1,0 +1,1 @@
+/usr/bin/g++ -Wall -Wfatal-errors -Wundef CMakeFiles/node_init.dir/node_init.cpp.o -o node_init 

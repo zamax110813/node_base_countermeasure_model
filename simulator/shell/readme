@@ -1,0 +1,5 @@
+このshellフォルダが一番ややこしいので詳しく説明する(わかりにくかったらごめんなさい)
+
+まず，シミュレーションを実行するshellスクリプトがmulti_simu_complete.sh
+↓
+multi_simu_complete.sh内でparallel.shをパラメータごとに実行

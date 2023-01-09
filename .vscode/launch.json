@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "name": "(gdb) build and debug active file on Mac",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/simulator/build/a.out",
+            "args": ["0.5","1000","998","1","0","1","0","0","20","0.1","0","0.00001","21","1","1","2","0.1"],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/local/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: build project on Linux (debug)"
+        },
+        {
+            "name": "(gdb) build and debug active file on Windows",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/simulator/build/main.exe",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: build project on Windows (debug)"
+        }
+    ]
+}

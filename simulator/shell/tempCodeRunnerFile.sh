@@ -1,0 +1,1 @@
+https://atmarkit.itmedia.co.jp/ait/articles/1801/19/news014.html 

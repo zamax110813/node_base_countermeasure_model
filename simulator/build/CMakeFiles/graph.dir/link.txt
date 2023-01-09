@@ -1,0 +1,1 @@
+/usr/bin/g++ -Wall -Wfatal-errors -Wundef CMakeFiles/graph.dir/graph.cpp.o CMakeFiles/graph.dir/Node.cpp.o CMakeFiles/graph.dir/functions.cpp.o -o graph 
