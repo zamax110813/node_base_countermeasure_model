@@ -16,6 +16,6 @@ add_executable(a.out main.cpp BA_Graph.cpp Complete_Graph.cpp Event_Generator.cp
 add_executable(average average.cpp)
 add_executable(st_host st_host.cpp)
 add_executable(param param.cpp)
-add_executable(graph graph.cpp Node.cpp functions.cpp)
 add_executable(node_init node_init.cpp)
 add_executable(judge judge.cpp)
+add_executable(build_BA_model build_BA_model.cpp functions.cpp)

@@ -1,10 +1,10 @@
 close all
 clear all
 
-global beta deltaS deltaI eta A num tau deltaw omega kappa st_host;
+global beta deltaS deltaI eta A num tau deltaw omega kappa st_host ;
 num=1000;
 u0 = load('../../data/init_node.txt')'; %ノードが各状態をとる確率(転置)(非対策脆弱、非対策感染、非対策回復、対策脆弱、対策感染、対策保護)
-A=load('../../data/cmp_adj_mrx.txt');%ネットワークの隣接行列
+A=load('../../data/ba_adj_mrx.txt');%ネットワークの隣接行列
 st_host=load('../../data/st_host.txt')';%戦略を変更しないホストがどれかを表す行列
 beta=load('../../data/alpha.txt')';%各ノードの感染確率の行列(転置)
 deltaI=load('../../data/deltaI.txt')';%各ノードのマルウェア除去確率の行列(転置)
@@ -12,9 +12,9 @@ deltaS=load('../../data/deltaS.txt')';%各ノードの脆弱性除去確率の�
 eta=load('../../data/eta.txt')';%各ノードの脆弱性発見確率の行列(転置)
 tau=0.001;
 deltaw=1;
-omega=0.5;
+omega=1;
 kappa=0.1;
-t0 = 0; tf =; tspan = [t0,tf]; %tの範囲の指定
+t0 = 0; tf = 100; tspan = [t0,tf]; %tの範囲の指定
 
 
 %自律進化型ボットネットを考慮したnode-base-SIRSモデル%
@@ -32,6 +32,7 @@ hold on
 plot(t,frac(:,2),'-r','Linewidth',2)
 plot(t,frac(:,3),'-g','Linewidth',2)
 plot(t,frac(:,4),'-k','Linewidth',2)
+ylim([0 1])
 hold off
 % % title('node-base感染拡散対策モデル(S)') %タイトルの入力
 xlabel('Time','FontSize',20); ylabel('Population Fraction','FontSize',20); %軸の指定

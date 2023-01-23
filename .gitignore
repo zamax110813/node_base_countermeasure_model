@@ -3062,3 +3062,4 @@ simulator/results/CompleteGraph/2000nodes/1998.1.0.1.0.0/sthosts2/simu_num39/bet
 simulator/results/CompleteGraph/2000nodes/1998.1.0.1.0.0/sthosts2/simu_num50/beta0.001/deltai0.1/deltas0.01/eta0.001/tau0.001/deltaw1/omega0.5/kappa0.1/result.svg
 simulator/results/CompleteGraph/nodes/...../sthosts/simu_num/beta/deltai/deltas/eta/tau/deltaw/omega/kappa/result.svg
 simulator/data/rate.txt
+.vscode/settings.json

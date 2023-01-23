@@ -1,0 +1,1 @@
+/usr/local/bin/g++ -Wall -Wfatal-errors -Wundef -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/build_BA_model.dir/build_BA_model.cpp.o CMakeFiles/build_BA_model.dir/functions.cpp.o -o build_BA_model 

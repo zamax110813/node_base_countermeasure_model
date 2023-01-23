@@ -1,1 +1,1 @@
-/usr/bin/g++ -Wall -Wfatal-errors -Wundef CMakeFiles/st_host.dir/st_host.cpp.o -o st_host 
+/usr/local/bin/g++ -Wall -Wfatal-errors -Wundef -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/st_host.dir/st_host.cpp.o -o st_host 

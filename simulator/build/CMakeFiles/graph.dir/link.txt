@@ -1,1 +1,1 @@
-/usr/bin/g++ -Wall -Wfatal-errors -Wundef CMakeFiles/graph.dir/graph.cpp.o CMakeFiles/graph.dir/Node.cpp.o CMakeFiles/graph.dir/functions.cpp.o -o graph 
+/usr/local/bin/g++ -Wall -Wfatal-errors -Wundef -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/graph.dir/Graph.cpp.o CMakeFiles/graph.dir/Node.cpp.o CMakeFiles/graph.dir/functions.cpp.o -o graph 
