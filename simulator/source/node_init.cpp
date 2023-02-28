@@ -7,8 +7,8 @@ int main(void){
     int n;
     cin>>n;
     vector<double> S1(n,1),I1(n,0),R1(n,0),S2(n,0),I2(n,0),R2(n,0);
-    I1[17]=1.0;
-    S1[17]=0;
+    I1[19]=1.0;
+    S1[19]=0;
     S2[1]=1;
     S1[1]=0;
     string fullpath="../../data/";

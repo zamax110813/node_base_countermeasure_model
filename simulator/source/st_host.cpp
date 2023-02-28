@@ -9,7 +9,7 @@ int main(void){
     ofstream ofs;
     ofs.open("../../data/st_host.txt");
     for(int i=0;i<1000;i++){
-        if(i==1||i==17){
+        if(i==1||i==19){
             ofs<<1<<" ";
         }else if(i==999){
             ofs<<0<<endl;
